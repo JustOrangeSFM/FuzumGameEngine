@@ -1,0 +1,13 @@
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/CMakeFiles/uninstall.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/CMakeFiles/INSTALL.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/CMakeFiles/ALL_BUILD.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/CMakeFiles/ZERO_CHECK.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/contrib/zlib/CMakeFiles/zlibstatic.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/contrib/zlib/CMakeFiles/INSTALL.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/code/CMakeFiles/assimp.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/code/CMakeFiles/INSTALL.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/test/CMakeFiles/unit.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/test/CMakeFiles/INSTALL.dir
+D:/VisualStudioProjects/2022/Engine/ThirdParty/assimp/build/x64/test/headercheck/CMakeFiles/INSTALL.dir
