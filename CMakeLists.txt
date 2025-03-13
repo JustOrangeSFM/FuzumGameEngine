@@ -37,8 +37,6 @@ set(ASSIMP2_DIR "${CMAKE_SOURCE_DIR}/third_party/assimp/build/x64/include/assimp
 set(STB_DIR "${CMAKE_SOURCE_DIR}/third_party/stb/include")
 #set(ZLIB_DIR "${CMAKE_SOURCE_DIR}/third_party/zlib")
 
-set(GIZMO_DIR "${CMAKE_SOURCE_DIR}/third_party/LibGizmo")
-
 file(GLOB SOURCES "src/main.cpp")
 file(GLOB SOURCES3 "src/Base.h")
 file(GLOB SOURCES2 "Games/*.cpp")
@@ -88,8 +86,6 @@ include_directories(${ASSIMP_DIR})
 include_directories(${ASSIMP2_DIR})
 include_directories(${STB_DIR})
 #include_directories(${ZLIB_DIR})
-
-include_directories(${GIZMO_DIR})
 
 include_directories(${CMAKE_SOURCE_DIR}/src/Base.h)
 
