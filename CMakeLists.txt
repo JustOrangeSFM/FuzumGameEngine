@@ -35,7 +35,7 @@ set(LINEMATCH_DIR "${CMAKE_SOURCE_DIR}/third_party/linmath")
 set(ASSIMP_DIR "${CMAKE_SOURCE_DIR}/third_party/assimp/include/assimp")
 set(ASSIMP2_DIR "${CMAKE_SOURCE_DIR}/third_party/assimp/build/x64/include/assimp")
 set(STB_DIR "${CMAKE_SOURCE_DIR}/third_party/stb/include")
-set(ZLIB_DIR "${CMAKE_SOURCE_DIR}/third_party/zlib")
+#set(ZLIB_DIR "${CMAKE_SOURCE_DIR}/third_party/zlib")
 
 set(GIZMO_DIR "${CMAKE_SOURCE_DIR}/third_party/LibGizmo")
 
@@ -87,7 +87,7 @@ include_directories(${LINEMATCH_DIR})
 include_directories(${ASSIMP_DIR})
 include_directories(${ASSIMP2_DIR})
 include_directories(${STB_DIR})
-include_directories(${ZLIB_DIR})
+#include_directories(${ZLIB_DIR})
 
 include_directories(${GIZMO_DIR})
 
@@ -137,7 +137,7 @@ if(SOURCES)
          $<TARGET_FILE_DIR:Editor>)
 
          # Линковка библиотеки imgui с исполняемым файлом
-         target_link_libraries(Editor Imgui glut32.lib freeglut.lib glfw3.lib opengl32.lib glu32.lib glew32.lib assimp-vc142-mt.lib zlib.lib)
+         target_link_libraries(Editor Imgui glut32.lib freeglut.lib glfw3.lib opengl32.lib glu32.lib glew32.lib assimp-vc142-mt.lib ) #zlib.lib
     endif()
     if(GAME)
          add_executable(Game ${SOURCES} ${GLAD_SRC_DIR}/glad.c)
@@ -149,7 +149,7 @@ if(SOURCES)
          $<TARGET_FILE_DIR:Game>)
 
          # Линковка библиотеки imgui с исполняемым файлом
-         target_link_libraries(Game Imgui glut32.lib freeglut.lib glfw3.lib opengl32.lib glu32.lib glew32.lib assimp-vc142-mt.lib zlib.lib)
+         target_link_libraries(Game Imgui glut32.lib freeglut.lib glfw3.lib opengl32.lib glu32.lib glew32.lib assimp-vc142-mt.lib) #zlib.lib
     endif()
 else()
     message(FATAL_ERROR "No source files found in src directory!")
