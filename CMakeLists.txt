@@ -36,7 +36,6 @@ set(ASSIMP_DIR "${CMAKE_SOURCE_DIR}/third_party/assimp/include/assimp")
 set(ASSIMP2_DIR "${CMAKE_SOURCE_DIR}/third_party/assimp/build/x64/include/assimp")
 set(STB_DIR "${CMAKE_SOURCE_DIR}/third_party/stb/include")
 set(ZLIB_DIR "${CMAKE_SOURCE_DIR}/third_party/zlib")
-set(BOOST_DIR "${CMAKE_SOURCE_DIR}/third_party/boost")
 
 set(GIZMO_DIR "${CMAKE_SOURCE_DIR}/third_party/LibGizmo")
 
@@ -89,7 +88,6 @@ include_directories(${ASSIMP_DIR})
 include_directories(${ASSIMP2_DIR})
 include_directories(${STB_DIR})
 include_directories(${ZLIB_DIR})
-include_directories(${BOOST_DIR})
 
 include_directories(${GIZMO_DIR})
 
